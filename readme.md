@@ -62,7 +62,7 @@ Your service will log its output to `/var/log/$NAME.log`. Don't forget to setup 
 Yep, I'm lazy too. But still, I've tried to write a script to automate this :)
 
 ```sh
-wget 'https://raw.github.com/gist/4275302/new-service.sh' && bash new-service.sh
+wget 'https://raw.githubusercontent.com/teocci/ServiceScriptGenerator/master/new-service.sh' && bash new-service.sh
 ```
 
 This script will download a `service.sh` file into a temporal file `tempfile`. After that, will replace some parameters and will ask you to run some commands as superuser.
@@ -70,10 +70,10 @@ This script will download a `service.sh` file into a temporal file `tempfile`. A
 If you feel confident enough with my script, you can `sudo` the script directly:
 
 ```sh
-wget 'https://raw.github.com/gist/4275302/new-service.sh' && sudo bash new-service.sh
+wget 'https://raw.githubusercontent.com/teocci/ServiceScriptGenerator/master/new-service.sh' && sudo bash new-service.sh
 ```
 
-Note: the cool hipsterish `curl $URL | bash` won't work here, I don't really want to check why.
+Note: the cool geeky command `curl $URL | bash` does not work here and I don't really want to check why.
 
 ### Demo
 

@@ -1,4 +1,4 @@
-# Service script for debianoids
+# Service script generatot for debianoids
 
 Look at [LSB init scripts](http://wiki.debian.org/LSBInitScripts) for more information.
 
